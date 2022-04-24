@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "gh page": "ng build --prod --base-href 'https://fcojavigomez.github.io/portfolio/ '"
+    "gh-page": "ng build --prod --base-href 'https://fcojavigomez.github.io/portfolio/ '"
   },
   "private": true,
   "dependencies": {
