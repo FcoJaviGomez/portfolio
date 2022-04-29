@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  public nombre = `{F.J.G.G.}`
+  public active: string
+  constructor() {
+    this.active = "home"
+  }
 
-  constructor() { }
+  cambiarActive(active: string) {
+    this.active = active
+  }
 
   ngOnInit(): void {
   }
+
 
 }

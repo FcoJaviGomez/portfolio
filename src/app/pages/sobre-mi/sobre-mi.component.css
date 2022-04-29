@@ -1,0 +1,51 @@
+* {
+    background: linear-gradient(to top left, var(--primariColor) 40%, var(--tertiaryColor));
+}
+
+.div {
+    height: 100vh;
+    padding-top: 10vh;
+    color: white;
+    background: linear-gradient(to top left, #1fe8b6, black 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -150px 100px -15px black;
+}
+
+.div_sobreMi {
+    height: 440px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 0px white;
+}
+
+.div_texto {
+    height: 440px;
+    width: 350px;
+    background: #1fe8b6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    padding: 30px;
+    text-align: left;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_imagen {
+    height: 440px;
+    width: 350px;
+    background-color: transparent;
+    background-image: url(../../../assets/foto1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
