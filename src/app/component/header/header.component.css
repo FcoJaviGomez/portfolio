@@ -6,9 +6,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: fixed;
+    z-index: 1;
 }
 
 .nombre {

@@ -1,15 +1,10 @@
 <header class="header">
-    <a class="nombre" on-click="cambiarActive('home')" href="#home">{{nombre}}</a>
+    <a class="nombre" href="#home">{{nombre}}</a>
     <div class="header_div">
-        <a [ngClass]="active== 'home' ? 'header_enlace header_enlace--active' : 'header_enlace'"
-            on-click="cambiarActive('home')" href="#home">Home</a>
-        <a [ngClass]="active== 'sobreMi' ? 'header_enlace header_enlace--active' : 'header_enlace'"
-            on-click="cambiarActive('sobreMi')" href="#sobreMi">Sobre mí</a>
-        <a [ngClass]="active== 'skills' ? 'header_enlace header_enlace--active' : 'header_enlace'"
-            on-click="cambiarActive('skills')" href="#skills">Skills</a>
-        <a [ngClass]="active== 'proyectos' ? 'header_enlace header_enlace--active' : 'header_enlace'"
-            on-click="cambiarActive('proyectos')" href="#proyectos">Proyectos</a>
-        <a [ngClass]="active== 'proyectos' ? 'header_enlace header_enlace--active' : 'header_enlace'"
-            on-click="cambiarActive('contacto')" href="#contacto">Contacto</a>
+        <a class="header_enlace" href="#home">Home</a>
+        <a class="header_enlace" href="#sobreMi">Sobre mí</a>
+        <a class="header_enlace" href="#skills">Skills</a>
+        <a class="header_enlace" href="#proyectos">Proyectos</a>
+        <a class="header_enlace" href="#contacto">Contacto</a>
     </div>
 </header>

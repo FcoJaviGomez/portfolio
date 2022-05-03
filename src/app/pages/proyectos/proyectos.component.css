@@ -12,8 +12,9 @@
 
 .div_titulo {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-top: 50px;
+    border-bottom: 1px solid var(--tertiaryColor);
 }
 
 .div_subtitulo {
@@ -29,6 +30,7 @@
     width: 80%;
     grid-gap: 50px;
     gap: 50px;
+    margin-bottom: 80px;
 }
 
 .div_proyectos_proyecto {

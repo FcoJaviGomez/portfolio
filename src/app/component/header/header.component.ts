@@ -7,17 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   public nombre = `{F.J.G.G.}`
-  public active: string
-  constructor() {
-    this.active = "home"
-  }
 
-  cambiarActive(active: string) {
-    this.active = active
+  constructor() {
   }
 
   ngOnInit(): void {
   }
-
 
 }

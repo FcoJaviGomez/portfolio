@@ -1,0 +1,41 @@
+.div {
+    height: 40vh;
+    color: white;
+    background: linear-gradient(to top right, black 50%, #1fe8b6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div_titulo {
+    font-size: 25px;
+    border-bottom: 1px solid var(--tertiaryColor);
+}
+
+/* .div_icono {} */
+
+.div_cv {
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--primariColor);
+    background-color: var(--secondaryColor);
+    text-decoration: none;
+    /* font-size: 1rem; */
+    font-size: 20px;
+    box-shadow: 1px 1px 15px 0px var(--tertiaryColor);
+}
+
+.div_cv:hover {
+    background-color: var(--tertiaryColor);
+}
+
+.icono {
+    margin: 10px;
+    font-size: 38px;
+    color: white;
+}
+
+.icono:hover {
+    color: var(--tertiaryColor);
+}

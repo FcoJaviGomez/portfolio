@@ -1,5 +1,5 @@
 .div {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 10vh;
     color: white;
     background: linear-gradient(to top right, black 40%, #1fe8b6);
@@ -7,6 +7,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.titulo {
+    font-size: 25px;
+    /* background: var(--primariColor); */
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--tertiaryColor);
 }
 
 .skills_div {
@@ -51,7 +59,7 @@
 }
 
 .skills:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .skills:hover .skills__icon .skills__p {
@@ -166,4 +174,12 @@
 
 .skills__icon10 {
     color: #ef9305;
+}
+
+@media screen and (max-width:769px) {
+    .skills_div {
+        height: 590px;
+        width: 489px;
+        margin-bottom: 100px;
+    }
 }
