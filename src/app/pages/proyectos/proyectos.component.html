@@ -2,8 +2,8 @@
     <div class="div_titulo">PROYECTOS</div>
     <div class="div_subtitulo">Algunos de los proyectos que he trabajado</div>
     <div class="div_proyectos">
-        <figure class="div_proyectos_proyecto">
-            <img class="img" src="../../../assets/automateproyecto.PNG">
+        <!-- <figure class="div_proyectos_proyecto">
+            <img class="img" src="">
             <div class="div_proyecto_info">
                 <div class="div_proyecto_info_titulo">AutoMate</div>
                 <div>App para la gestión de mantenimientos del coche</div>
@@ -16,17 +16,19 @@
                         Repositorio</a>
                 </div>
             </div>
-        </figure>
-        <figure class="div_proyectos_proyecto">
-            <img class="img" src="../../../assets/lugia.jpg">
+        </figure> -->
+        <figure *ngFor="let proyecto of proyectos" class="div_proyectos_proyecto">
+            <img class="img" src="{{proyecto.imagen}}">
             <div class="div_proyecto_info">
-                <div class="div_proyecto_info_titulo">Api Pokemon</div>
-                <div>Pagina web, llamando a una api pública</div>
+                <div class="div_proyecto_info_titulo">{{proyecto.nombre}}</div>
+                <div>{{proyecto.descripcion}}</div>
                 <div class="div_proyecto_info_caja_enlaces">
-                    <a class="div_proyecto_info_enlace" href="" target="_b"><i class="fa-solid fa-globe"></i>&nbsp;
+                    <a class="div_proyecto_info_enlace" href="{{proyecto.web}}" target="_b"><i
+                            class="fa-solid fa-globe"></i>&nbsp;
                         Sitio
                         Web</a>
-                    <a class="div_proyecto_info_enlace" href="" target="_b"><i class="fa-brands fa-github"></i>&nbsp;
+                    <a class="div_proyecto_info_enlace" href="{{proyecto.repositorio}}" target="_b"><i
+                            class="fa-brands fa-github"></i>&nbsp;
                         Repositorio</a>
                 </div>
             </div>
