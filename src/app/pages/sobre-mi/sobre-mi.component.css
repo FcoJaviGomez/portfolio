@@ -71,3 +71,27 @@
         border-top-right-radius: 10px;
     }
 }
+
+@media screen and (max-width:376px) {
+    .titulo {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .div_sobreMi {
+        height: 640px;
+        width: 250px;
+    }
+
+    .div_texto {
+        height: 340px;
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .div_imagen {
+        height: 340px;
+        width: 250px;
+        background-image: url(../../../assets/foto2.png);
+    }
+}

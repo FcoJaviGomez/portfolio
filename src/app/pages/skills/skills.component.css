@@ -15,15 +15,16 @@
     /* background: var(--primariColor); */
     margin-bottom: 50px;
     border-bottom: 1px solid var(--tertiaryColor);
+    border: solid 1px red;
 }
 
 .skills_div {
     height: 440px;
-    width: 619px;
+    max-width: 619px;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    box-shadow: 1px 1px 15px 0px white;
+    box-shadow: 1px 1px 15px 0px red;
     flex-wrap: wrap;
     gap: 30px;
     display: flex;
@@ -182,4 +183,12 @@
         width: 489px;
         margin-bottom: 100px;
     }
+}
+
+@media screen and (max-width:376px) {
+    .titulo {
+        font-size: 10px;
+        border: solid 1px red;
+    }
+
 }
