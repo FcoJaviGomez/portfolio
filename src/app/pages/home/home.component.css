@@ -58,7 +58,7 @@
 }
 
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:400px) {
     .nombre {
         font-size: 14px;
         max-width: 300px;
