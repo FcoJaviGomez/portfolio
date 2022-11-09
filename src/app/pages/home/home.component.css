@@ -67,8 +67,10 @@
 
     .div_frase {
         font-size: 12px;
-        width: 310px;
+        max-width: 310px;
         height: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .subNombre {

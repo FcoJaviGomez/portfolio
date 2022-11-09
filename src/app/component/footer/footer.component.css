@@ -13,15 +13,12 @@
     border-bottom: 1px solid var(--tertiaryColor);
 }
 
-/* .div_icono {} */
-
 .div_cv {
     padding: 15px;
     border-radius: 5px;
     color: var(--primariColor);
     background-color: var(--secondaryColor);
     text-decoration: none;
-    /* font-size: 1rem; */
     font-size: 20px;
     box-shadow: 1px 1px 15px 0px var(--tertiaryColor);
 }
@@ -38,4 +35,22 @@
 
 .icono:hover {
     color: var(--tertiaryColor);
+}
+
+@media screen and (max-width:376px) {
+    .div_titulo {
+        font-size: 16px;
+    }
+
+    .icono {
+        font-size: 26px;
+    }
+
+    .div_cv {
+        font-size: 14px;
+    }
+
+    .div_nombre {
+        font-size: 12px;
+    }
 }
