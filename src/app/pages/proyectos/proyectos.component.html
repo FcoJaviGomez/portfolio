@@ -2,21 +2,6 @@
     <div class="div_titulo">PROYECTOS</div>
     <div class="div_subtitulo">Algunos de los proyectos que he trabajado</div>
     <div class="div_proyectos">
-        <!-- <figure class="div_proyectos_proyecto">
-            <img class="img" src="">
-            <div class="div_proyecto_info">
-                <div class="div_proyecto_info_titulo">AutoMate</div>
-                <div>App para la gestión de mantenimientos del coche</div>
-                <div class="div_proyecto_info_caja_enlaces">
-                    <a class="div_proyecto_info_enlace" href="https://app-auto-mate.herokuapp.com/" target="_b"><i
-                            class="fa-solid fa-globe"></i>&nbsp; Sitio
-                        Web</a>
-                    <a class="div_proyecto_info_enlace" href="https://github.com/FcoJaviGomez/autoMate" target="_b"><i
-                            class="fa-brands fa-github"></i>&nbsp;
-                        Repositorio</a>
-                </div>
-            </div>
-        </figure> -->
         <figure *ngFor="let proyecto of proyectos" class="div_proyectos_proyecto">
             <img class="img" src="{{proyecto.imagen}}">
             <div class="div_proyecto_info">
